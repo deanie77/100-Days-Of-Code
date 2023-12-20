@@ -36,3 +36,15 @@ print(70 + int(100.58))
 # PEDMASLR
 print(3 * ((3 + 3) / 3) - 3)
 
+# rounding numbers
+print(round(8 / 3))
+
+# round to number of decimals
+print(round(8 / 3, 3))
+
+# using f-strings
+score = 0
+height = 1.8
+isWinning = True
+
+print(f'your score is {score}, your height is {height}, you are winning is {isWinning}')
